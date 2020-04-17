@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/CheckResult"
+        android:layout_width="match_parent"
+        android:layout_height="146dp"
+        android:text="Not Detected."
+        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+    <Button
+        android:onClick="HookCheck"
+        android:text="HookCheck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"/>
+
+    <Button
+        android:onClick="VirtualCheck"
+        android:text="VirtualCheck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:onClick="DebugCheck"
+        android:text="DebugCheck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:onClick="DexFileCheck"
+        android:text="DexFileCheck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:onClick="RootCheck"
+        android:text="RootCheck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:onClick="SignCheck"
+        android:text="SignCheck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
+

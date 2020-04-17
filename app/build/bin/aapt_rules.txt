@@ -1,0 +1,21 @@
+# view AndroidManifest.xml #generated:19
+-keep class com.wwxiaoqi.hook.MainActivity { <init>(...); }
+
+# onClick res/layout/activity_main.xml #generated:28
+-keepclassmembers class * { *** DebugCheck(...); }
+
+# onClick res/layout/activity_main.xml #generated:34
+-keepclassmembers class * { *** DexFileCheck(...); }
+
+# onClick res/layout/activity_main.xml #generated:15
+-keepclassmembers class * { *** HookCheck(...); }
+
+# onClick res/layout/activity_main.xml #generated:40
+-keepclassmembers class * { *** RootCheck(...); }
+
+# onClick res/layout/activity_main.xml #generated:46
+-keepclassmembers class * { *** SignCheck(...); }
+
+# onClick res/layout/activity_main.xml #generated:22
+-keepclassmembers class * { *** VirtualCheck(...); }
+
